@@ -1,0 +1,26 @@
+{
+  "org": "rust-lang",
+  "name": "triagebot",
+  "description": "Automation/tooling for Rust spaces",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "triagebot",
+      "permission": "maintain"
+    },
+    {
+      "name": "infra",
+      "permission": "maintain"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false
+    }
+  ]
+}
